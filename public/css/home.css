@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+*{
+}
+
+.content{
+  margin: 30px;
+}
+
+.title{
+  text-align: center;
+  font-size: 60px;
+  margin: 0px;
+  font-family: 'Work Sans', sans-serif;
+}
+.alert{
+  text-align: center;
+  font-size: 30px;
+}
+
+hr{
+  margin: 5px 45px 5px 45px;
+  border: 3px #808080 solid;
+}
+
+/* -----=Tab CSS =----- */
+
+.nav-tabs{
+  border-bottom: 1px solid white;
+}
+
+.nav-tabs li{
+  width: 50%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.nav-tabs a{
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+.nav-tabs>li.active>.watch-tab, .nav-tabs>li.active>.watch-tab:focus{
+  background-color: #337ab7;
+  color:white;
+}
+.nav-tabs>li.active>.seen-tab, .nav-tabs>li.active>.seen-tab:focus{
+  background-color: #5cb85c;
+  color:white;
+
+}
+
+.selected-movie{
+  background-color: white!important;
+  color:black;
+}
+
+
+/* -----=Tab CSS =----- */
+
+#exTab2{
+  border: 4px #808080 solid;
+  border-radius: 10px;
+  padding: 4px;
+  color:white;
+}
+
+.list-group-item:hover{
+  background-color: white;
+  color:black;
+  cursor: pointer;
+}
+
+.watch{
+  background-color: #337ab7;
+}
+.seen{
+  background-color: #5cb85c;
+}
+
+.seengroup .pagination>.active>span{
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+}
+
+.pagination{
+  margin-top: 10px;
+  margin-left: 25%;
+  margin-bottom: -20px;
+  display: inline-block;
+}
+/* -----=Tab CSS =----- */
+
+/*  Moive Details */
+#movie-placeholder{
+  width: 50%;
+}
+.movie-details {
+  min-height: 400px;
+  border: 4px #808080 solid;
+  border-radius: 10px;
+  font-family: 'Work Sans', sans-serif;
+}
+.movie-details p{
+  font-size: 16px;
+}
+.movie-details img{
+  border-radius: 5px;
+}
+.movie-details2{
+  padding: 15px;
+}
+.movie-descrip{
+  margin-left: 18px;
+}
+.movie-title{
+  display: inline-block;
+  text-decoration: underline;
+
+}
+.movie-year{
+  display: inline-block;
+}
+.movie-buttons{
+  padding: 18px;
+}
+.btn-danger{
+  margin-left: 45px;
+}
+.movie-title-row{
+  margin-top: -30px;
+}
+
+/* Movie Details */
+
+
+/* add movie button */
+
+.add-movie{
+  width: 100%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* add movie button */
+
+
+/* modal css */
+
+.yeargroup{
+  padding-top: 5px;
+}
+
+.modal-title{
+  text-align: center;
+}
+
+.tt-dropdown-menu {
+    text-align: left;
+}
+
+.twitter-typeahead{
+  display: inline!important;
+}
+.movie-search{
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+.movie-search-label{
+  color: white;
+}
+
+.tt-query, .tt-hint {
+    border: 2px solid #CCCCCC;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 24px;
+    height: 80px;
+    line-height: 30px;
+    outline: medium none;
+    padding: 0px;
+    margin-left: 7.5px;
+    width: 396px;
+}
+
+.tt-query {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+.tt-hint {
+    color: #999999;
+}
+.tt-dropdown-menu {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 1px;
+    padding: 8px 0;
+    width: 422px;
+}
+.tt-suggestion {
+    font-size: 18px;
+    line-height: 24px;
+    padding: 3px 20px;
+}
+.tt-suggestion:hover {
+    background-color: #ADD8E6;
+    color: white;
+    cursor: pointer;
+}
+.tt-suggestion p {
+    margin: 0px;
+
+}
+/* modal css */
