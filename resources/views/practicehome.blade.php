@@ -121,7 +121,7 @@
                        <span class="sr-only">Close</span>
                 </button>
                 <h4 class="modal-title" id="myModalLabel">
-                    Modal title
+                    Find a Movie
                 </h4>
             </div>
 
@@ -148,7 +148,7 @@
               </div>
 
               <fieldset class="form-group">
-                <legend>Radio buttons</legend>
+                <legend>Please Select</legend>
                 <div class="form-check">
                   <label class="form-check-label">
                     <input type="radio" class="form-check-input" name="seen" id="optionsRadios1" value="false" checked>
